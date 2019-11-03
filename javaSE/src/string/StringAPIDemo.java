@@ -24,6 +24,20 @@ public class StringAPIDemo {
 		String str4 = str2.substring(4);//W,China No.1    空格也被截取到了
 		String str5 = str2.substring(7, 12);//hina 下标从0开始，且截取子串时含头不含尾
 		
+		//toUpperCase()将字符串中的英文转为大写
+		String str6 = str2.toUpperCase();//  WWW,CHINA NO.1    
+		
+		//toLowerCase()将字符串中的英文转为小写
+		String str7 = str2.toLowerCase();//  www,china no.1    
+		
+		//将其他类型的数据转换为String表示
+		String str8 = String.valueOf(2.3);//"2.3"
+		
+		//判断字符串是否由……开头
+		boolean flag = str2.startsWith("  WWW");//true
+		
+		//判断字符串是否由……结尾
+		boolean flag1 = str2.endsWith("   ");//true
 		
 	}
 }
